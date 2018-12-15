@@ -1,0 +1,15 @@
+--- 
+title: "AFOr: Archivio di Fonti Orali"
+author: "Associazione Amigdala"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is the technical documentation for the project AFOr: Archivio di Fonti Orali"
+---
+
+# What is AFOr {-}
+
+Why we made it? What is an archive of oral sources? 

@@ -1,0 +1,40 @@
+# Materials and methodology {#materials}
+
+##  Interviews (video/audio)
+
+### Transcription
+For the initial transcription, aimed at the creation of subtitles and "plain" texts (i.e. only reporting the uttered words), we used [Aegisub 3.2.2 ](http://www.aegisub.org/).
+
+###  Transcription conventions {}
+
+|Annotation scheme|Meaning|
+|-------|--------------------------------------------------------|
+|`{\i1}{\i0}[]`|[Word(s) uttered in dialect, followed by their Italian translation](#transc-dialect)|`{\i1}`A sun stè`{\i0}[`Sono stato`]`|
+|`{\s1}{\s0}`|[Inaudible/unidentified word(s)](#transc-inaudible)|
+|`{\u1}{\u0}`|[Entities (places, people, etc...)](#transc-entities)|
+|`{\b1}{\b0}`|[Swearword]()|
+|`§laugh§`|[The interviewee laughs]()|
+|`§gesture§`|[Indicates a non-verbal gesture]()|
+|`§sigh§`||
+|`**`|[Translations of proverbs]()|
+
+####  Dialect {-#transc-dialect}
+Words or sentences in dialect are delimited by the tag `{\i1}{\i0}`, used in subtitling for [formatting the text to italic](http://docs.aegisub.org/3.2/ASS_Tags/#override-tags). After the closing `{\i0}` tag **there is no space** and an opening square bracket `[` indicates the beginning of the translation. Dialect orthography is based on @Bellei1999 and @Rovatti1999.  
+  
+*Example*: `{\i1}e i'g feven daboun{\i0}[e gliele facevamo davvero]`
+
+####  Inaudible words {-#transc-inaudible}
+Whenever one or more word is inaudible, the tags `{\s1}{\s0}` (used in subtitling to [format the text to strikethrough](http://docs.aegisub.org/3.2/ASS_Tags/#override-tags)) are added in place of the word(s).  
+  
+*Example*: `cosa succede? {\s1}{\s0} invece diceva`
+
+####  Entities {-#transc-entities}
+Entities - such as names of people, places, companies, etc...) are included in the `{\u1}{\u0}` tag, used in subtitling to [format the text to underlined](http://docs.aegisub.org/3.2/ASS_Tags/#override-tags).  
+  
+*Example*: `una volta c'eran le {\u1}Corni{\u0}`
+
+### Corpus
+
+##  Written documents
+
+##  Photos
